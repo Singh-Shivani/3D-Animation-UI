@@ -15,7 +15,7 @@
 
 ## Customize & Use✌️
 - Even if you have no idea about 3D design, I'll highly recommend you using these tools atleast for once(specially Framer, if you have enough knowledge about prototyping tools🥳).
-- P.S. It might seem too many steps ahead but it's a very simple and easy to do process. Just go for it.😎
+- <b>P.S. It might seem too many steps ahead but it's a very simple and easy to do process. Just go for it.</b>😎
   ### In Figma🎯
   - Make basic layout of any device you want to use( I used iPhone 11 max pro). Make one rectangle(this will be the area where your 3D model will run) inside this device of any width and height you want to keep(Mine - 396x439).
   - For running your 3D model inside this rectangle we'll need a figma plugin which will add our HTML, CSS and JS code to link it with this rectangle. Go to Plugins -> Search 'Anima' -> Install.
