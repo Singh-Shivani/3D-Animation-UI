@@ -9,7 +9,7 @@
 
 ## Insights🔎
 - 3D UI design is inspired by <a href="https://www.youtube.com/watch?v=xk-ihmSbtZs&t=474s">Punit Chawla </a>. It's a simple UI design which covers 3D tools and components.
-- This one page design mainly focuses on design and prototyping using 3D tools and models🤩. 
+- This one page design mainly focuses on prototyping using 3D tools and models🤩. 
 - Design is covered by 3 amazing tools, Figma & Framer(for design and prototype) along with sketchfab(3D models and design source).
 <br><br>
 
@@ -17,12 +17,12 @@
 - Even if you have no idea about 3D design, I'll highly recommend you using these tools atleast for once(specially Framer, if you have enough knowledge about prototyping tools🥳).
 - P.S. It might seem too many steps ahead but it's a very simple and easy to do process. Just go for it.😎
   ### In Figma🎯
-  - Make basic layout of any device you want to include( I used iPhone 11 max pro). Make one rectangle(this will be the area where your 3D model will run) inside this device of any width and height you want to keep(Mine - 396x439).
-  - For running your 3D model inside this rectangle we'll need a figma plugin which will add our HTML, CSS and JS code to link it with this rectangle. Go to Plugins -> Search 'Anima' -> Install or Add.
-  - For running this 3D model, we'll need 3D design code. Now go to <a href="https://codepen.io/elliezen/pen/yMqqWe">Three.js Saturn</a>.  
+  - Make basic layout of any device you want to use( I used iPhone 11 max pro). Make one rectangle(this will be the area where your 3D model will run) inside this device of any width and height you want to keep(Mine - 396x439).
+  - For running your 3D model inside this rectangle we'll need a figma plugin which will add our HTML, CSS and JS code to link it with this rectangle. Go to Plugins -> Search 'Anima' -> Install.
   - Come back to figma design. Click on menu -> Go to plugins -> click on 'Anima'. You'll see a small window of this plugin on your screen.
-  - Click on the rectangle and after that on Anima's screen click on 'Embed Code'. Copy the HTML code from Three.js and paste it into the 'Selected Frame' of Anima. Copy Css code from the same wesbite and paste it just below your HTML code in Anima inside <style></style>. Copy the JS and paste it below CSS code inside <script></script>
-  - On Anima where you pasted HTML and CSS, click on 'Website' given below and write <b><scipt src = ""></scipt></b>. Go to Three.js, click on Setting icon and on left side click to JS. You'll find 2 links. Copy 1st one and paste in into those "" of script tag, similarly write another script tag and paste 2nd link into that.
+  - For running this 3D model, we'll need 3D design code. Now, go to <a href="https://codepen.io/elliezen/pen/yMqqWe">Three.js Saturn</a>.  
+  - Click on the rectangle and after that on Anima's screen click on 'Embed Code'. Copy the HTML code from Three.js and paste it into the 'Selected Frame' of Anima. Copy the CSS code from the same wesbite and paste it just below your HTML code in Anima inside <style></style>. Copy the JS and paste it below CSS code inside <script></script>
+  - On Anima where you pasted HTML and CSS, click on 'Website' given below and write "<scipt></scipt>"  Go to Three.js, click on Setting icon and on left side click to JS. You'll find 2 links. Copy 1st one and paste in src = " --link here-- "of script tag, similarly write another script tag and paste 2nd link into that.
   - Click on 'Save'. Click on 'Preview in Browser'(Be patient). And walla!🤩 3D animation has been incorporate inside your rectangle.
   
   ### In Framer🎯
@@ -34,7 +34,7 @@
   - Copy the unique Id or numbers you see after name of the animation in the URL(which is 7da900c6c5bf45c4b6d2ef19f0cab86d).
   - Go back to Framer.
   - Click on that default 3D model. You'll find bunch of options on the right side, find 'ID'. Paste the unique Id(copied from sketchfab) inside the 'ID'.
-  - BE PATIENT
+  - BE PATIENT.
   - You can set different options for the animation(I only set 'Autostart as True').
   - Take this animation "inside" the rectangle and expand it accordingly to hide other options that are onto the animation.
   - Tada!!!🕺💃 Nice and Clean 3D animation inside your UI design.
