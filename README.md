@@ -22,7 +22,7 @@
   - Come back to figma design. Click on menu -> Go to plugins -> click on 'Anima'. You'll see a small window of this plugin on your screen.
   - For running this 3D model, we'll need 3D design code. Now, go to <a href="https://codepen.io/elliezen/pen/yMqqWe">Three.js Saturn</a>.  
   - Click on the rectangle and after that on Anima's screen click on 'Embed Code'. Copy the HTML code from Three.js and paste it into the 'Selected Frame' of Anima. Copy the CSS code from the same wesbite and paste it just below your HTML code in Anima inside <style></style>. Copy the JS and paste it below CSS code inside <script></script>
-  - On Anima where you pasted HTML and CSS, click on 'Website' given below and write "<scipt></scipt>"  Go to Three.js, click on Setting icon and on left side click to JS. You'll find 2 links. Copy 1st one and paste in src = " --link here-- "of script tag, similarly write another script tag and paste 2nd link into that.
+  - On Anima where you pasted HTML and CSS, click on 'Website' given below and write 'script' tag. Go to Three.js, click on Setting icon and on left side click to JS. You'll find 2 links. Copy 1st one and paste in src = " --link here-- "of script tag, similarly write another script tag and paste 2nd link into that.
   - Click on 'Save'. Click on 'Preview in Browser'(Be patient). And walla!🤩 3D animation has been incorporate inside your rectangle.
   
   ### In Framer🎯
