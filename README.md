@@ -17,27 +17,27 @@
 - Even if you have no idea about 3D design, I'll highly recommend you using these tools atleast for once(specially Framer, if you have enough knowledge about prototyping tools🥳).
 - <b>P.S. It might seem too many steps ahead but it's a very simple and easy to do process. Just go for it.</b>😎
   ### In Figma🎯
-  - Make basic layout of any device you want to use( I used iPhone 11 max pro). Make one rectangle(this will be the area where your 3D model will run) inside this device of any width and height you want to keep(Mine - 396x439).
-  - For running your 3D model inside this rectangle we'll need a figma plugin which will add our HTML, CSS and JS code to link it with this rectangle. Go to Plugins -> Search 'Anima' -> Install.
-  - Come back to figma design. Click on menu -> Go to plugins -> click on 'Anima'. You'll see a small window of this plugin on your screen.
-  - For running this 3D model, we'll need 3D design code. Now, go to <a href="https://codepen.io/elliezen/pen/yMqqWe">Three.js Saturn</a>.  
-  - Click on the rectangle and after that on Anima's screen click on 'Embed Code'. Copy the HTML code from Three.js and paste it into the 'Selected Frame' of Anima. Copy the CSS code from the same wesbite and paste it just below your HTML code in Anima inside <style></style>. Copy the JS and paste it below CSS code inside <script></script>
-  - On Anima where you pasted HTML and CSS, click on 'Website' given below and write 'script' tag. Go to Three.js, click on Setting icon and on left side click to JS. You'll find 2 links. Copy 1st one and paste in src = " --link here-- "of script tag, similarly write another script tag and paste 2nd link into that.
-  - Click on 'Save'. Click on 'Preview in Browser'(Be patient). And walla!🤩 3D animation has been incorporate inside your rectangle.
+ 1. Make basic layout of any device you want to use( I used iPhone 11 max pro). Make one rectangle(this will be the area where your 3D model will run) inside this device of any width and height you want to keep(Mine - 396x439).
+  2. For running your 3D model inside this rectangle we'll need a figma plugin which will add our HTML, CSS and JS code to link it with this rectangle. Go to Plugins -> Search 'Anima' -> Install.
+  3. Come back to figma design. Click on menu -> Go to plugins -> click on 'Anima'. You'll see a small window of this plugin on your screen.
+  4. For running this 3D model, we'll need 3D design code. Now, go to <a href="https://codepen.io/elliezen/pen/yMqqWe">Three.js Saturn</a>.  
+  5. Click on the rectangle and after that on Anima's screen click on 'Embed Code'. Copy the HTML code from Three.js and paste it into the 'Selected Frame' of Anima. Copy the CSS code from the same wesbite and paste it just below your HTML code in Anima inside <style></style>. Copy the JS and paste it below CSS code inside <script></script>
+  6. On Anima where you pasted HTML and CSS, click on 'Website' given below and write 'script' tag. Go to Three.js, click on Setting icon and on left side click to JS. You'll find 2 links. Copy 1st one and paste in src = " --link here-- "of script tag, similarly write another script tag and paste 2nd link into that.
+  7. Click on 'Save'. Click on 'Preview in Browser'(Be patient). And walla!🤩 3D animation has been incorporate inside your rectangle.
   
   ### In Framer🎯
-  - On your <a href="https://framer.com/">Framer</a> dashboard you'll find an option of 'Import'. Click on 'Figma'. If this is your first project on framer then you'll need to authenticate framer by figma(just a few seconds work). After authentication, copy your figma project link and paste it there.
-  - If all of your design components seems to be imported correctly then you're doing greate otherwise just check your previous steps.
-  - Click on 'Insert'. Go to 'Publick Packages' and search for <b>Sketchfab</b>. Click on 'Install', then on 'Show'.
-  - You'll see a default 3D model which you can adjust accordingly.
-  - Go to <a href="https://sketchfab.com/"> Sketchfab</a>. Search for <a href="https://sketchfab.com/3d-models/cartoon-woman-hip-hop-dance-7da900c6c5bf45c4b6d2ef19f0cab86d">'Cartoon Women Hip-Hop Dance'(or just click here)</a>(if you want exact same model as I used). Click on the model. Don't panick if you see this as a paid model, we can use it free for our personal projects. There are various options provided by sketchfab to use 3D models, we are going to use the one method which I call it as 'Unique Id Method'.
-  - Copy the unique Id or numbers you see after name of the animation in the URL(which is 7da900c6c5bf45c4b6d2ef19f0cab86d).
-  - Go back to Framer.
-  - Click on that default 3D model. You'll find bunch of options on the right side, find 'ID'. Paste the unique Id(copied from sketchfab) inside the 'ID'.
-  - BE PATIENT.
-  - You can set different options for the animation(I only set 'Autostart as True').
-  - Take this animation "inside" the rectangle and expand it accordingly to hide other options that are onto the animation.
-  - Tada!!!🕺💃 Nice and Clean 3D animation inside your UI design.
+  8. On your <a href="https://framer.com/">Framer</a> dashboard you'll find an option of 'Import'. Click on 'Figma'. If this is your first project on framer then you'll need to authenticate framer by figma(just a few seconds work). After authentication, copy your figma project link and paste it there.
+  9. If all of your design components seems to be imported correctly then you're doing greate otherwise just check your previous steps.
+  10. Click on 'Insert'. Go to 'Publick Packages' and search for <b>Sketchfab</b>. Click on 'Install', then on 'Show'.
+  11. You'll see a default 3D model which you can adjust accordingly.
+  12. Go to <a href="https://sketchfab.com/"> Sketchfab</a>. Search for <a href="https://sketchfab.com/3d-models/cartoon-woman-hip-hop-dance-7da900c6c5bf45c4b6d2ef19f0cab86d">'Cartoon Women Hip-Hop Dance'(or just click here)</a>(if you want exact same model as I used). Click on the model. Don't panick if you see this as a paid model, we can use it free for our personal projects. There are various options provided by sketchfab to use 3D models, we are going to use the one method which I call it as 'Unique Id Method'.
+  13. Copy the unique Id or numbers you see after name of the animation in the URL(which is 7da900c6c5bf45c4b6d2ef19f0cab86d).
+  14. Go back to Framer.
+  15. Click on that default 3D model. You'll find bunch of options on the right side, find 'ID'. Paste the unique Id(copied from sketchfab) inside the 'ID'.
+  16. BE PATIENT.
+  17. You can set different options for the animation(I only set 'Autostart as True').
+  18. Take this animation "inside" the rectangle and expand it accordingly to hide other options that are onto the animation.
+  19. Tada!!!🕺💃 Nice and Clean 3D animation inside your UI design.
   
   ### Prototype👀
   <p align="center">
